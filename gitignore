@@ -1,0 +1,44 @@
+# Arduino build output
+build/
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+*.eep
+
+# Arduino IDE temp files
+*.tmp
+*.bak
+*.swp
+*~
+
+# Arduino IDE 2.x cache
+.arduino15/
+.gradle/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+*~
+
+# Android Studio (if app code is added later)
+*.iml
+.idea/
+.gradle/
+local.properties
+app/build/
+captures/
+.externalNativeBuild/
+.cxx/
